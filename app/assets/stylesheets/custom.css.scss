@@ -23,7 +23,15 @@ body {
   color: darkblue;
 }
 
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
 
+.capitalize {
+  text-transform: capitalize;
+}
 #logo {
   float: left;
   font-size: 1.7em;
