@@ -4,7 +4,7 @@
     <% if @user.avatar != nil %>
       <%= link_to image_tag("#{@user.avatar.image}", class: "avatar"), user_avatar_path %>
     <% else %>
-      <%= image_tag("mugi.png", class: "avatar") %>
+      <%= link_to image_tag("mugi.png", class: "avatar"), user_avatar_path %>
     <% end %>
   </div>
 </div>
