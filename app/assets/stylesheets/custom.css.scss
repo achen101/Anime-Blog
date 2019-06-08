@@ -22,17 +22,20 @@ $navbar-default-bg:#AABEE4;
 }
 
 .jumbotron{
-  background-image: asset-url("karen.png");
+  background-image: asset-url("anime-blog.jpg");
   background-size: cover;
   height: 700px;
 }
 
 .jumbotron h1 {
-  color: #2F5292;
+  color: #111735;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 100px;
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
+  line-height: 1;
 }
 
 .btn-xlarge {
