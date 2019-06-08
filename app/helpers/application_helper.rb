@@ -5,4 +5,12 @@ module ApplicationHelper
     gravatar_url = "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
     image_tag(gravatar_url, alt: user.username, class: "img-circle")
   end
+
+  def genre_submit_text
+    if controller.action_name == "new"
+       return "Add Genre"
+    else controller.action_name == "edit"
+       return "Update Genre"
+    end
+  end
 end

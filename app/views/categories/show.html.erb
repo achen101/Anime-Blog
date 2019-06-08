@@ -1,8 +1,8 @@
-<h1 align="center"><%= "Category: " + @category.name %></h1>
+<h1 class="center"><b><%= "Genre: " + @category.name %></h1></b>
 <div align="center">
   <% if logged_in? && current_user.admin? %>
     <div class="row">
-      <span class="badge"><%= link_to "Edit Catagory Name", edit_category_path(@category) %></span>
+      <span class="badge"><%= link_to "Edit Genre Name", edit_category_path(@category) %></span>
     </div>
   <% end %>
   <%= will_paginate @category_articles%>

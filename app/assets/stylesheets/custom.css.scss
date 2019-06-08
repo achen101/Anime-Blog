@@ -1,7 +1,28 @@
-$navbar-default-bg:#AABEE4;
+$navbar-default-bg:#5F95D2;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+a {
+  color: #8596EC
+}
+
+a:hover, a:active {
+    text-decoration: none;
+}
+
+body {
+  background-color: #91BD90
+}
+
+.return a:link, .return a:visited, .user_delete a:link, .user_delete a:visited {
+  color: black;
+}
+
+.return a:hover, .return a:active, .user_delete a:hover, .user_delete a:active {
+  color: darkblue;
+}
+
 
 #logo {
   float: left;
@@ -19,6 +40,8 @@ $navbar-default-bg:#AABEE4;
 
 .center {
   text-align: center;
+  color: #121A43;
+  font-weight: bold;
 }
 
 .jumbotron{
@@ -40,11 +63,11 @@ $navbar-default-bg:#AABEE4;
 
 .btn-xlarge {
   font-size: 1.7em;
-  background-color: #AABEE4;
+  background-color: #5F95D2 ;
 }
 
 .btn-info:hover {
-  background-color: #5E84CB;
+  background-color: #AABEE4;
 }
 
 .article-actions {
@@ -85,10 +108,8 @@ $navbar-default-bg:#AABEE4;
   font-weight: bold;
 }
 
-
-.badge a:hover {
+.badge {
   color: #DDA0DD;
-  text-decoration: none;
 }
 .input_checkbox input {
   width: auto !important;
@@ -108,7 +129,9 @@ footer ul {
   float: right;
   list-style: none;
 }
-
+footer ul a {
+  color: gray;
+}
 footer ul li {
   float: left;
   margin-left: 15px;
